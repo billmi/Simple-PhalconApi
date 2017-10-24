@@ -1,4 +1,4 @@
-# Ycc-Simple-Phalcon
+# Ycc-Simple-PhalconApi
 感谢phalconCms 作者的https://github.com/KevinJay/PhalconCMS
 
 顺便作者QQ群号:150237524 大家也可以一起来讨论交流phalcon
@@ -7,7 +7,7 @@
 
 后期有时间会重构框架
 
-这里主要是对多模块进行说明PHQL模型识别,暂时做各模块进行注册
+这里主要是对多模块进行说明PHQL模型识别
 详情请看博客:http://blog.csdn.net/ycc297876771/article/details/78117009 如何进行多模块的模型定位
 
 注:后台暂时没用phalcon,一般使用其做http协议api接口
@@ -47,3 +47,10 @@ server {
 	    error_log   "E:\xxxxx\log\error.log";
 }
 
+后台地址 http://yourhost/admin 访问后台 admin 654321
+
+前台 demo: http://yourhost/api/sendSms
+
+其他的使用方法参考 https://www.marser.cn
+
+如不需要后台功能,保留file表就可以了(文件上传会使用到)
