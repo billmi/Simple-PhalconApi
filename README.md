@@ -1,4 +1,4 @@
-# Ycc-Simple-Phalcon
+# Ycc-Simple-PhalconApi
 感谢phalconCms 作者的https://github.com/KevinJay/PhalconCMS
 
 顺便作者QQ群号:150237524 大家也可以一起来讨论交流phalcon
@@ -47,3 +47,8 @@ server {
 	    error_log   "E:\xxxxx\log\error.log";
 }
 
+后台地址 http://yourhost/admin 访问后台 admin 654321
+
+前台 demo: http://yourhost/api/sendSms
+
+其他的使用方法参考 https://www.marser.cn
