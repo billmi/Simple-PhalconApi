@@ -1,0 +1,31 @@
+[2017-10-13 03:28:22][error]{ erro : Mailer Error:   }
+[2017-10-13 03:29:18][error]{ erro : Mailer Error:   }
+[2017-10-13 03:29:55][error]{ erro : Mailer Error:   }
+[2017-10-13 03:32:50][error]{ erro : Mailer Error: SMTP Error: Could not authenticate.  }
+[2017-10-13 04:01:20][error]{ erro : Mailer Error:   }
+[2017-10-13 04:03:01][error]{ erro : Mailer Error: SMTP Error: Could not authenticate.  }
+[2017-10-13 04:03:40][error]{ erro : Mailer Error: SMTP Error: Could not authenticate.  }
+[2017-10-13 04:44:31][error]{ erro : Mailer Error: SMTP Error: Could not authenticate.  }
+[2017-10-13 04:46:09][error]{ erro : Mailer Error: SMTP Error: Could not authenticate.  }
+[2017-10-13 04:49:20][error]{ erro : Mailer Error: SMTP Error: Could not authenticate.  }
+[2017-10-13 04:50:03][error]{ erro : Mailer Error: The following From address failed: services@star-coin.cc : MAIL FROM command failed,5.7.57 SMTP; Client was not authenticated to send anonymous mail during MAIL FROM [HK2PR02CA0142.apcprd02.prod.outlook.com]
+,530,SMTP server error: MAIL FROM command failed Detail: 5.7.57 SMTP; Client was not authenticated to send anonymous mail during MAIL FROM [HK2PR02CA0142.apcprd02.prod.outlook.com]
+ SMTP code: 530  }
+[2017-10-13 04:53:28][error]{ erro : Mailer Error: SMTP Error: Could not authenticate.  }
+[2017-10-13 04:54:04][error]{ erro : Mailer Error: SMTP Error: Could not authenticate.  }
+[2017-10-13 04:56:45][error]{ erro : Mailer Error: SMTP Error: Could not authenticate.  }
+[2017-10-13 05:00:52][error]{ erro : Mailer Error: SMTP Error: Could not authenticate.  }
+[2017-10-13 05:04:40][error]{ erro : Mailer Error: SMTP Error: Could not authenticate.  }
+[2017-10-13 05:09:29][error]{ erro : Mailer Error: SMTP Error: Could not authenticate.  }
+[2017-10-13 05:15:25][error]{ erro : Mailer Error: SMTP Error: Could not authenticate.  }
+[2017-10-13 05:15:31][error]{ erro : Mailer Error: SMTP Error: Could not authenticate.  }
+[2017-10-13 05:15:37][error]{ erro : Mailer Error: SMTP Error: Could not authenticate.  }
+[2017-10-13 05:17:11][error]{ erro : Mailer Error: SMTP Error: Could not authenticate.  }
+[2017-10-13 05:37:36][error]{ erro : Mailer Error: SMTP Error: Could not authenticate.  }
+[2017-10-13 05:37:41][error]{ erro : Mailer Error: SMTP Error: Could not authenticate.  }
+[2017-10-13 05:37:51][error]{ erro : Mailer Error: SMTP Error: Could not authenticate.  }
+[2017-10-13 05:52:56][error]{ erro : Mailer Error: SMTP Error: data not accepted.  }
+[2017-10-13 05:53:30][error]{ erro : Mailer Error: SMTP Error: data not accepted.  }
+[2017-10-13 06:23:48][error]{ erro : Mailer Error: SMTP Error: data not accepted.  }
+[2017-10-13 06:24:08][error]{ erro : Mailer Error: SMTP Error: data not accepted.  }
+[2017-10-13 06:53:17][error]{ erro : Mailer Error: SMTP Error: Could not authenticate.  }
