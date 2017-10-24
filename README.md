@@ -18,7 +18,7 @@
     server {
 	    listen 80;
 	    server_name phalcon.cc;
-	    root "E:\WebSite\star-member\public";
+	    root "E:\xxxxxxx\project\public";
 	    index index.php index.html index.htm;
 	
 	    location / {
