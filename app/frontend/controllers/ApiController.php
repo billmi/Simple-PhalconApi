@@ -36,9 +36,10 @@ class ApiController extends  BaseController{
      * sendEmailAction
      * @author Bill
      */
+    //注意修改邮件密码，博主已替换了,使用的腾讯邮件
     public function sendEmailAction(){
         $data = $this->request->get('data');
-        $data = EncryptHelper::smsDecodeEncrypt($data);
+        $data = EncryptHelper::smsDecodeEncrypt($data);  //加解密
         $result = false;
         try{
             $this->email->setSendFrom($data->sendFrom);
