@@ -1,4 +1,4 @@
-# Ycc-Simple-PhalconApi
+# Simple-PhalconApi
 感谢phalconCms 作者的https://github.com/KevinJay/PhalconCMS
 
 顺便作者QQ群号:150237524 大家也可以一起来讨论交流phalcon
