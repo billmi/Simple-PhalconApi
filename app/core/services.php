@@ -16,8 +16,9 @@ $di->set('router', function () {
 
 
 $di->setShared('session', function () use ($config){
-//    $session = new Phalcon\Session\Adapter\Files();
-    $session = new Phalcon\Session\Adapter\Redis($config->session->toArray());
+    $session = new Phalcon\Session\Adapter\Files();
+    //redis接管session
+//    $session = new Phalcon\Session\Adapter\Redis($config->session->toArray());
     $session->start();
     return $session;
 });
@@ -125,14 +126,14 @@ $di->setShared('email',function()use($di){
     return new Marser\App\Ext\PHPMailer\MailSend();
 });
 
-$_sysServer = $cacheServer['redis'];
-$_sysPrefix = $_sysServer['prefix'];
-unset($_sysServer['prefix']);
-foreach ($_sysServer as $_serverName => $option) {
-    $di->setShared($_serverName, function () use ($di, $option,$_sysPrefix) {
-        $redisServer = new Predis\Client($option, ['prefix' => $_sysPrefix]);
-        return $redisServer;
-    });
-}
+//$_sysServer = $cacheServer['redis'];
+//$_sysPrefix = $_sysServer['prefix'];
+//unset($_sysServer['prefix']);
+//foreach ($_sysServer as $_serverName => $option) {
+//    $di->setShared($_serverName, function () use ($di, $option,$_sysPrefix) {
+//        $redisServer = new Predis\Client($option, ['prefix' => $_sysPrefix]);
+//        return $redisServer;
+//    });
+//}
 
 

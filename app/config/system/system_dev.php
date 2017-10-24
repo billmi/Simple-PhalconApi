@@ -43,6 +43,27 @@ return array(
         //缓存路径
         'cache_path' => ROOT_PATH . '/app/cache/data/',
     ),
+
+//    //后台配置
+//    'backend' => array(
+//        //模块在URL中的pathinfo路径名
+//        'module_pathinfo' => '/admin/',
+//
+//        //控制器路径
+//        'controllers' => ROOT_PATH . '/app/backend/controllers/',
+//
+//        //视图路径
+//        'views' => ROOT_PATH . '/app/backend/views/',
+//
+//        //是否实时编译模板
+//        'is_compiled' => true,
+//
+//        //模板路径
+//        'compiled_path' => ROOT_PATH . '/app/cache/compiled/backend/',
+//
+//        //后台静态资源URL
+//        'assets_url' => '/admin/',
+//    ),
     
     //数据库表配置
     'database' => array(

@@ -33,6 +33,26 @@ return array(
             //前台静态资源URL
             'assets_url' => '/home/',
         ),
+        //后台配置
+        'backend' => array(
+            //模块在URL中的pathinfo路径名
+            'module_pathinfo' => '/admin/',
+
+            //控制器路径
+            'controllers' => ROOT_PATH . '/app/backend/controllers/',
+
+            //视图路径
+            'views' => ROOT_PATH . '/app/backend/views/',
+
+            //是否实时编译模板
+            'is_compiled' => true,
+
+            //模板路径
+            'compiled_path' => ROOT_PATH . '/app/cache/compiled/backend/',
+
+            //后台静态资源URL
+            'assets_url' => '/admin/',
+        ),
 
         //类库路径
         'libs' => ROOT_PATH . '/app/libs/',
@@ -52,7 +72,7 @@ return array(
             'port' => 3306,
             'username' => 'root',
             'password' => 'root',
-            'dbname' => 'member',
+            'dbname' => 'phalapi',
             'charset' => 'utf8',
         ),
         //表前缀
