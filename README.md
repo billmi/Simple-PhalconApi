@@ -54,3 +54,5 @@ server {
 其他的使用方法参考 https://www.marser.cn
 
 如不需要后台功能,保留file表就可以了(文件上传会使用到)
+
+redis注入服务都是手动注入,请详细参考下,phalcon的redis组件功能可能不够用
