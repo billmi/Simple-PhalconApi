@@ -14,7 +14,8 @@
 
 配置如下
 根据cgi接口不同,请适当修改配置
-server {
+
+    server {
 	    listen 80;
 	    server_name phalcon.cc;
 	    root "E:\WebSite\star-member\public";
